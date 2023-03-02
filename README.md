@@ -1,6 +1,6 @@
-# Guiding Neural Entity Alignment with Compatibility
+# [Guiding Neural Entity Alignment with Compatibility](https://aclanthology.org/2022.emnlp-main.32/)
 
-This repo contains the source code of paper "Guiding Neural Entity Alignment with Compatibility", which has been accepted at EMNLP 2022.
+This repo contains the source code of our paper "Guiding Neural Entity Alignment with Compatibility", which has been accepted at EMNLP 2022.
 
 Download the used data from this [Dropbox directory](https://www.dropbox.com/sh/ff6fr22e636lby8/AACQYSPOkX3Oy7NUNk8L2dgqa?dl=0).
 Decompress it and put it under `emea_code/` as shown in the folder structure below.
@@ -57,6 +57,20 @@ Below are the scripts for different purposes:
 * To reproduce the generality of EMEA shown in Fig. 4, run `run_emea_w_dual_amn.sh`, `run_emea_w_alinet.sh`, `run_emea_w_iptranse.sh`.
 We suggest you try Dual-AMN model first because AliNet and IPTransE are relatively slow.
 * Run `sh run_emea_avoidconf.sh` to reproduce the results of _AvoidConf_ rule shown in Figure 6.
+
+
+## Citation
+```
+@inproceedings{liu2022guiding,
+  author = {Liu, Bing and Scells, Harrisen and Hua, Wen and Zuccon, Guido and Zhao, Genghong and Zhang, Xia},
+  title = {Guiding Neural Entity Alignment with Compatibility},
+  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  series = {EMNLP'22},
+  pages = {491-504},
+  location = {Abu Dhabi, United Arab Emirates},
+  year = {2022}
+}
+```
 
 
 ## Acknowledgement
